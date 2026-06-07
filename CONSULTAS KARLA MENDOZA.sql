@@ -274,7 +274,7 @@ SELECT
 FROM guests a                            
 LEFT JOIN bookings b                     
     ON a.guest_id = b.guest_id
-WHERE b.booking_id IS NULL;              !
+WHERE b.booking_id IS NULL;              
 
 --Item 16 Total ingresos  
 SELECT 
