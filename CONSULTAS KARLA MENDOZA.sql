@@ -87,41 +87,6 @@ VALUES (
     '2255-8899'                  
 );
 SELECT * FROM bookings;
-INSERT INTO bookings (
-    guest_id,
-    accommodation_id,
-    room_id,                          
-    booking_status_id,
-    check_in_date,
-    check_out_date,
-    adult_count,
-    child_count,
-    subtotal_amount,
-    tax_amount,
-    discount_amount,
-    total_amount,
-    special_requests,
-    booking_reference
-)
-VALUES (
-    101,                                      -- El código de Maria Elena Echeverria
-    23,                                       
-    NULL,                              
-    1,                                        
-    '2026-10-10',                      
-    '2026-10-12',                      
-    1,                                 
-    0,                                 
-    90.00,                                
-    0.00,                              
-    0.00,                              
-    90.00,                            
-    'Contacto de emergencia: Karla Mendoza.', 
-    'BK-MECHEVERRIA-101-2026'                 
-);
-
-
-
 --ITEM 3Registrar huésped y reserva
 INSERT INTO bookings (
     guest_id,
@@ -156,7 +121,7 @@ VALUES (
     'BK-MECHEVERRIA-101-2026'                       
 );
 
-SELECT * FROM bookings ;
+
 
 -- 	item 4 Registrar pago---
 SELECT * FROM payments;
