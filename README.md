@@ -2,12 +2,12 @@
 
 Este repositorio contiene el archivo de scripts SQL diseñados para responder a la guía práctica del módulo de bases de datos relacionales.
 
-## 🛠️ Motor de Base de Datos Utilizado
+##  Motor de Base de Datos Utilizado
 * **PostgreSQL** (Administrado a través de pgAdmin)
 
 ---
 
-## 🗂️ Esquema de la Base de Datos
+##  Esquema de la Base de Datos
 
 El sistema está compuesto por las siguientes tablas relacionales y sus campos principales:
 
@@ -57,5 +57,5 @@ El sistema está compuesto por las siguientes tablas relacionales y sus campos p
 
 ---
 
-## 🚀 Contenido del Repositorio
+##  Contenido del Repositorio
 * `CONSULTAS KARLA MENDOZA.sql`: Archivo principal que contiene las consultas solicitadas (consultas generales, INNER JOIN, LEFT JOIN con filtros NULL, funciones de agregación, ordenamiento, filtrado con HAVING y subconsultas), separadas por comentarios descriptivos.
